@@ -1,0 +1,35 @@
+[
+  {
+    "uuid": "b53f45a6-8610-44bd-8dbc-83dcdc13ccc8",
+    "first": "Orhan",
+    "last": "Hillmann",
+    "time": "4:30 AM - 5:00 AM",
+    "color": "Warmup",
+    "contactDetails": {
+      "phone": "0870-2877590",
+      "email": "orhan.hillmann@example.com"
+    }
+  },
+  {
+    "uuid": "b53f45a6-8610-44bd-8dbc-83dcdc16ccc8",
+    "first": "William",
+    "last": "Doe",
+    "time": "4:30 AM - 5:00 AM",
+    "color": "green",
+    "contactDetails": {
+      "phone": "0870-2877590",
+      "email": "orhan.hillmann@example.com"
+    }
+  },
+  {
+    "uuid": "b53f45a6-8610-44bd-8dbc-83dcdc15ccc8",
+    "first": "William",
+    "last": "Doe",
+    "time": "4:30 AM - 5:00 AM",
+    "color": "VIP",
+    "contactDetails": {
+      "phone": "0870-2877590",
+      "email": "orhan.hillmann@example.com"
+    }
+  }
+]

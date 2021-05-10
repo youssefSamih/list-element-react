@@ -1,11 +1,16 @@
-import Item from 'Components/Item';
-import { Container } from 'Components/styles';
+import Main from 'Components/Main';
+import { Provider } from 'react-redux';
+import store from 'redux/store';
+import { ThemeProvider } from 'styled-components';
+import theme from 'theme/config';
 
 const App = () => {
   return (
-    <Container>
-      <Item />
-    </Container>
+    <ThemeProvider theme={theme}>
+      <Provider {...{ store }}>
+        <Main />
+      </Provider>
+    </ThemeProvider>
   );
 };
 
